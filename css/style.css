@@ -1,0 +1,29 @@
+body{
+    overflow-x: hidden;
+    /* background: #222222; */
+}
+.imgmain{
+    width: 47vw;
+}
+.btnin{
+    text-align: center;
+    margin-top: 50px;
+}
+.maincard{
+    text-align: center;
+}
+.mainabout{
+    margin-top: 50px;
+    text-align: justify;
+    padding: 20px;
+}
+/* sign in page */
+.signcon{
+    margin-top: 50px;
+}
+.ilogin{
+    background: rgb(175, 175, 175);
+    color: white;
+    /* font-size: xx-large; */
+    padding-bottom: 30px;
+}

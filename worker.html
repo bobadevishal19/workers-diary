@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Booking Form</title>
+    <meta charset="utf-8">
+<link rel="stylesheet" href="smart-forms.css">
+
+
+  </head>
+  <body>
+    <h2>Get Workers</h2>
+    <form method="post" action="send1.php">
+    <div class="elem-group">
+      <label for="name">Full Name </label>
+      <input type="text" id="name1" name="name1" placeholder="Full name" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+      <label for="userid">User ID</label>
+      <input type="userid" id="userid"  name="userid" placeholder="userid" required>
+    </div>
+    <div class="elem-group">
+      <label for="phone"> Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="+91 9999999999" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+    </div>
+    <div class="elem-group">
+      <label for="name">Profession </label>
+      <input type="text" id="profession" name="profession" placeholder="profession"required>
+    </div>
+    
+
+
+<div class="">
+    <button type="submit">Submit</button>
+</div>
+
+  </form>
+  </body>
+</html>
